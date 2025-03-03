@@ -4,7 +4,7 @@
 **Revisores:** Mariano González, José María Luna. 
 **Última modificación:** 03/03/2025
 
-El objetivo de este proyecto es doble: Por una parte, se quiere diseñar una aplicación que recoja información de trayectos de trenes, tal y como se muestra en la siguiente tabla, y, por otra parte se quiere mostra cómo una interfaz sirve como un contrato para el diseño de un tipo, que puede ser implementado de dos formas distintas, para lo que usaremos un esquema interfaz (**TrayectoTren**)+ claseimpl (**TrayectoTrenImpl**)+ claseimpl2 (**TrayectoTrenImpl2**).
+El objetivo de este proyecto es doble: Por una parte, se quiere diseñar una aplicación que recoja información de trayectos de trenes, tal y como se muestra en la siguiente tabla, y, por otra parte se quiere mostrar cómo una interfaz sirve como un contrato para el diseño de un tipo, que puede ser implementado de dos formas distintas, para lo que usaremos un esquema interfaz (**TrayectoTren**)+ claseimpl (**TrayectoTrenImpl**)+ claseimpl2 (**TrayectoTrenImpl2**).
 
 ![image](https://user-images.githubusercontent.com/72299672/222902140-5f4114b6-92cf-4433-a668-f8d17a7e62d7.png)
 
@@ -64,7 +64,7 @@ Se pide:
    * **hora de salida**, de tipo LocalTime.
    * **hora de Llegada**, de tipo LocalTime.
 
-Note que, en este caso, la comprobación de la restricción R4 debe ser responsabilidad del tipo *Parada*.
+   Note que, en este caso, la comprobación de la restricción R4 debe ser responsabilidad del tipo *Parada*.
 
 1. Cambie la clase de implementación en el test definido en el apartado 4 para probar la clase *TrayectoTrenImpl2*.
 

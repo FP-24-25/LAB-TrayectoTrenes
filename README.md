@@ -50,6 +50,11 @@ Criterio de igualdad: por nombre del trayecto, hora de salida y código del tren
 
 Criterio de orden: por nombre del trayecto, a igualdad de nombre por hora de salida, y a igualdad de hora de salida por código del tren.
 
+
+Un esquema de la estructura del proyecto se puede ver en el siguiente diagrama de clases:
+
+![Figura 1. Entidades de la aplicación Trayecto Trenes](./img/classDiag.png)
+
 Se pide:
 
 1. Cree el proyecto Trenes y, dentro de él, los paquetes *fp.trenes* y *fp.trenes.test*.
